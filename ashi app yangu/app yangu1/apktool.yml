@@ -1,0 +1,8 @@
+version: 2.x
+apkFileName: ashimadi_launcher.apk
+isFrameworkApk: false
+doNotCompress:
+- glb
+- ogg
+- wav
+- ktx
