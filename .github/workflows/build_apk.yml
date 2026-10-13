@@ -29,6 +29,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
 
       - name: Build APK with Gradle
+        working-directory: './ashi app yangu/app yangu1'
         run: |
           if [ -f "./gradlew" ]; then
             chmod +x gradlew
